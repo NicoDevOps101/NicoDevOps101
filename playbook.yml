@@ -1,0 +1,6 @@
+- name: Testing Git Commands
+  hosts: all
+  become: true
+  tasks:
+    - name: Revising Ansible
+

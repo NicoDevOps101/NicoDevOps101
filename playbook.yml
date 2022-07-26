@@ -3,4 +3,7 @@
   become: true
   tasks:
     - name: Revising Ansible
+      copy:
+        src: /NicoDevOps/Playbooks/playbook.yml
+        dest: Location of Ansible Server 
 

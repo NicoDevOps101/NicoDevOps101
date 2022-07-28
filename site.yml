@@ -4,6 +4,6 @@
   tasks:
     - name: Revising Ansible
       copy:
-        src: /NicoDevOps/Playbooks/site.yml
-        dest: Location of Ansible Server 
+        src: /Ansible/playbooks/NicoDevOps101
+        dest: /opt/jenkins/deploy-docker/ 
 
